@@ -6,6 +6,9 @@ namespace Christian_repo
     {
         static void Main(string[] args)
         {
+            SayHello();
+        }
+        static void SayHello(){
             Console.WriteLine("Hello World!");
         }
     }
